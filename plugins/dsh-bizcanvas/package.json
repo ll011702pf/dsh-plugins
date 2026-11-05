@@ -1,0 +1,26 @@
+{
+  "name": "@local/dsh-bizcanvas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A business model canvas studio in the Harness Web sidebar: fill the nine Osterwalder blocks with sticky-note entries, drag them between blocks, keep several named canvases, and export Markdown or JSON.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "client.js", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}

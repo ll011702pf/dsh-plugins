@@ -1,0 +1,3 @@
+- insert:
+    - id: industry-analysis
+      name: '@local/dsh-industry-analysis'

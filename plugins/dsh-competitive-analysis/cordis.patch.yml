@@ -1,0 +1,3 @@
+- insert:
+    - id: competitive-analysis
+      name: '@local/dsh-competitive-analysis'

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Industry analysis">
+  <defs>
+    <linearGradient id="ia-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d5f6e"/>
+      <stop offset="1" stop-color="#20305c"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#ia-bg)"/>
+  <!-- the value-chain spine: three stages linked top to bottom -->
+  <path d="M17 17.5v29" fill="none" stroke="#8fd8e6" stroke-width="2.6" stroke-linecap="round" opacity="0.55"/>
+  <g fill="#eaf7fb">
+    <circle cx="17" cy="17.5" r="3.4"/>
+    <circle cx="17" cy="32" r="3.4"/>
+    <circle cx="17" cy="46.5" r="3.4"/>
+  </g>
+  <!-- stage bars: each stage is a rounded capsule to the right of its node -->
+  <g fill="#eaf7fb" opacity="0.9">
+    <rect x="25" y="13.5" width="21" height="8" rx="4"/>
+    <rect x="25" y="42.5" width="26" height="8" rx="4"/>
+  </g>
+  <rect x="25" y="28" width="30" height="8" rx="4" fill="#f0b23c"/>
+  <!-- a small output node: the finished product leaving the chain -->
+  <path d="M45.5 17.5h6.5" fill="none" stroke="#8fd8e6" stroke-width="2.6" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="55" cy="17.5" r="2.9" fill="#9ee6c8"/>
+</svg>

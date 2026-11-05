@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Competitive analysis">
+  <rect width="64" height="64" rx="15" fill="#2b4fd6"/>
+  <rect x="12" y="14" width="40" height="36" rx="5" fill="#ffffff"/>
+  <path d="M25.3 14v36M38.7 14v36M12 26h40M12 38h40" fill="none" stroke="#b9c6f5" stroke-width="2.6"/>
+  <rect x="39.2" y="26.8" width="12.6" height="10.4" rx="2" fill="#ffd166"/>
+  <rect x="25.9" y="38.8" width="12" height="10.4" rx="2" fill="#8fe3d0"/>
+</svg>

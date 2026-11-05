@@ -1,0 +1,3 @@
+- insert:
+    - id: note-wall
+      name: '@local/dsh-note-wall'

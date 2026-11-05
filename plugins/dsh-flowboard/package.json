@@ -1,0 +1,26 @@
+{
+  "name": "@local/dsh-flowboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A diagram and whiteboard studio in the Harness Web sidebar: flowcharts, architecture diagrams, user-journey maps, swimlanes, org charts and runbooks, with a built-in template library, a pan/zoom canvas, node and connector editing, and JSON, SVG and Markdown export.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "client.js", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}

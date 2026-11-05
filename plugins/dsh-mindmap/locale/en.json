@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Mind Map",
+    "description": "Grows a mind map from one central idea: add branches with Tab, drag a box to select many nodes and delete them together, edit in place, auto-layout the levels, and export SVG, PNG, Markdown or JSON."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@local/dsh-mindmap",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A mind-map studio in the Harness Web sidebar: grow an outline node by node, box-select and bulk-delete branches, auto-layout it as a radial tree, and export it as SVG, PNG, Markdown or JSON.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}

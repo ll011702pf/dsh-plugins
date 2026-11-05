@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#0f6f6a"/>
+  <g fill="#eef4ff">
+    <rect x="9" y="13" width="7.12" height="24" rx="2"/>
+    <rect x="18.72" y="13" width="7.12" height="10.7" rx="2"/>
+    <rect x="18.72" y="26.3" width="7.12" height="10.7" rx="2"/>
+    <rect x="28.44" y="13" width="7.12" height="24" rx="2"/>
+    <rect x="38.16" y="13" width="7.12" height="10.7" rx="2"/>
+    <rect x="38.16" y="26.3" width="7.12" height="10.7" rx="2"/>
+    <rect x="47.88" y="13" width="7.12" height="24" rx="2"/>
+    <rect x="9" y="39.6" width="21.7" height="11.4" rx="2"/>
+    <rect x="33.3" y="39.6" width="21.7" height="11.4" rx="2"/>
+  </g>
+  <g fill="#f5b942">
+    <rect x="10.5" y="18.05" width="3.87" height="2.2" rx="1.1"/>
+    <rect x="10.5" y="21.95" width="2.8" height="2.2" rx="1.1"/>
+    <rect x="10.5" y="25.85" width="3.54" height="2.2" rx="1.1"/>
+    <rect x="10.5" y="29.75" width="2.97" height="2.2" rx="1.1"/>
+    <rect x="20.22" y="15.3" width="3.71" height="2.2" rx="1.1"/>
+    <rect x="20.22" y="19.2" width="2.72" height="2.2" rx="1.1"/>
+    <rect x="20.22" y="28.6" width="3.71" height="2.2" rx="1.1"/>
+    <rect x="20.22" y="32.5" width="2.72" height="2.2" rx="1.1"/>
+    <rect x="29.94" y="18.05" width="3.87" height="2.2" rx="1.1"/>
+    <rect x="29.94" y="21.95" width="2.8" height="2.2" rx="1.1"/>
+    <rect x="29.94" y="25.85" width="3.54" height="2.2" rx="1.1"/>
+    <rect x="29.94" y="29.75" width="2.97" height="2.2" rx="1.1"/>
+    <rect x="39.66" y="15.3" width="3.71" height="2.2" rx="1.1"/>
+    <rect x="39.66" y="19.2" width="2.72" height="2.2" rx="1.1"/>
+    <rect x="39.66" y="28.6" width="3.71" height="2.2" rx="1.1"/>
+    <rect x="39.66" y="32.5" width="2.72" height="2.2" rx="1.1"/>
+    <rect x="49.38" y="18.05" width="3.87" height="2.2" rx="1.1"/>
+    <rect x="49.38" y="21.95" width="2.8" height="2.2" rx="1.1"/>
+    <rect x="49.38" y="25.85" width="3.54" height="2.2" rx="1.1"/>
+    <rect x="49.38" y="29.75" width="2.97" height="2.2" rx="1.1"/>
+    <rect x="10.5" y="40.8" width="17.2" height="2.2" rx="1.1"/>
+    <rect x="10.5" y="44.2" width="12.34" height="2.2" rx="1.1"/>
+    <rect x="10.5" y="47.6" width="14.96" height="2.2" rx="1.1"/>
+    <rect x="34.8" y="40.8" width="17.2" height="2.2" rx="1.1"/>
+    <rect x="34.8" y="44.2" width="12.34" height="2.2" rx="1.1"/>
+    <rect x="34.8" y="47.6" width="14.96" height="2.2" rx="1.1"/>
+  </g>
+</svg>

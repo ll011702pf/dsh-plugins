@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Kanban Board",
+    "description": "Opens an agile kanban board in the sidebar: four columns of cards that move between stages by drag & drop, kept in local storage."
+  }
+}

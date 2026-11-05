@@ -1,0 +1,3 @@
+- insert:
+    - id: bizcanvas
+      name: '@local/dsh-bizcanvas'

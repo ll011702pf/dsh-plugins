@@ -1,0 +1,3 @@
+- insert:
+    - id: flowboard
+      name: '@local/dsh-flowboard'
